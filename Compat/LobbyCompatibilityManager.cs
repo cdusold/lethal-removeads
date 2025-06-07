@@ -19,7 +19,7 @@ namespace RemoveAds.Compat
 
         private LobbyCompatibilityManager()
         {
-            PluginHelper.RegisterPlugin(PluginInfo.PLUGIN_GUID, new System.Version(PluginInfo.PLUGIN_VERSION), CompatibilityLevel.ServerOnly, VersionStrictness.None);
+            PluginHelper.RegisterPlugin(PluginInfo.PLUGIN_GUID, new System.Version(PluginInfo.PLUGIN_VERSION), CompatibilityLevel.ClientOnly, VersionStrictness.None);
         }
     }
 }

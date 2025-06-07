@@ -31,7 +31,7 @@ namespace RemoveAds
                 LobbyCompatibilityManager.Init();
             }
             harmony.PatchAll(typeof(Plugin));
-            harmony.PatchAll(typeof(TimeOfDayPatch));
+            harmony.PatchAll(typeof(HUDManagerPatch));
         }
     }
 }
